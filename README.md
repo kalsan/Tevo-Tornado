@@ -1,55 +1,11 @@
-![tevo3d](img/tevo-3dprinter-tornado-01.jpg)
-# Tevo Tornado 3D Printer
+# Fork
 
-Welcome to the Github of the TEVO Tornado 3D printer - you find here the latest firmware & documents for your Tornado. Please take time and have detailed look at the infos provided on this page to be sure to update the correct firmware for your motherboard and version of 3d printer.
+This repo has been forked from https://github.com/Homers3D/Tevo-Tornado
 
-| Printer           | Tornado           |
-| ----------------- |:-----------------:|
-| Motherboard v1    | MKS Base          |
-| Motherboard v2    | MKS Gen L         |
-| Firmware          | Marlin            |
-| Actual Version    | T-TO-X.XXXX       |
+**This firmware is not suitable for standard Tevo Tornados!** Please check the link above for the original firmware.
 
+This firmware was adjusted for a modified Tevo Tornado I built from spare parts. Differences to the main model:
 
-## Introduction 
-
-
-## Identify TEVO Tornado Motherboard 
-
-
-## What version of TEVO Tornado do I have? 
-
-
-## Important Infos
-
-
-## Update TEVO Tornado Firmware - Preparation
-
-
-## Update TEVO Tornado Firmware - Download
-
-
-## Update TEVO Tornado Firmware - Drivers
-
-
-## Update TEVO Tornado Firmware - Arduino
-
-
-## Update TEVO Tornado Firmware - Flash Motherboard
-
-
-## Testing
-
-
-## Additional links
-
-- [TEVO Tornado Infos](https://www.tevo.cn/products/3d-printers/tevo-tornado/ "TEVO Tornado Infos")
-- [TEVO Tornado FAQ](https://help.tevo.cn/faq-categories/tevo-tornado/ "TEVO Tornado FAQ")
-
-- [TEVO Website](https://www.tevo.cn/ "Visit TEVO Website")
-- [TEVO Support](https://help.tevo.cn/ "Visit TEVO Support Suite")
-
-- [TEVO Official Webshop](https://tevo3dprinterstore.com "Visit TEVO Official Webshop")
-- [TEVO Aliexpress Shop](https://tevo.aliexpress.com/store/2010004 "Visit TEVO Aliexpress Shop")
-- [TEVO Amazon Store](https://www.amazon.com/stores/node/9447801011 " Visit TEVO Amazon Store")
-
+- Double-Z-Axis with 2 spindles and 2 motors
+- The ACME spindles have a slope of 1.5mm where the original has an 8mm slope. You may ask, why? Well the 8mm spindles were sold out at the moment I gathered the missing parts.
+- Also I adjusted a few things in the xy according to my findings from Cura.
